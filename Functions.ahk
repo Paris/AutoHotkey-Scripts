@@ -3,7 +3,7 @@
 		A wrapper set of functions for commands which have an output variable.
 
 	License:
-		- Version 1.4 <http://www.autohotkey.net/~Titan/#functions>
+		- Version 1.41 <http://www.autohotkey.net/~Titan/#functions>
 		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
 */
 
@@ -149,7 +149,7 @@ RegRead(RootKey, SubKey, ValueName = "") {
 	Return, v
 }
 Run(Target, WorkingDir = "", Mode = "") {
-	Run, %Target%, %WorkingDir%, %Mode%, %v%
+	Run, %Target%, %WorkingDir%, %Mode%, v
 	Return, v	
 }
 SoundGet(ComponentType = "", ControlType = "", DeviceNumber = "") {
