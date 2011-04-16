@@ -3,7 +3,8 @@
 		Performs fuzzy string searching, see <http://en.wikipedia.org/wiki/Damerau-Levenshtein_distance>
 
 	License:
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 1.0 <http://www.autohotkey.net/~polyethene/#levenshtein>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 DamerauLevenshteinDistance(s, t) {
 	StringLen, m, s

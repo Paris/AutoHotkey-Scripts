@@ -13,8 +13,8 @@
 > hotstrings("\bcolou?r", "rgb(128, 255, 0);") ; '\b' prevents matching with anything before the word, e.g. 'multicololoured'
 
 	License:
-		- Version 2.56 <http://www.autohotkey.net/~Titan/#hotstrings>
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 2.56 <http://www.autohotkey.net/~polyethene/#hotstrings>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 hotstrings(k, a = "")
 {

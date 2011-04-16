@@ -3,8 +3,8 @@
 		A wrapper set of functions for commands which have an output variable.
 
 	License:
-		- Version 1.41 <http://www.autohotkey.net/~Titan/#functions>
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 1.41 <http://www.autohotkey.net/~polyethene/#functions>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 
 Functions() {

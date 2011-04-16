@@ -9,8 +9,8 @@
 		A UUID string.
 
 	About: License
-		- Version 1.1 <http://www.autohotkey.net/~Titan/#uuid>
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 1.1 <http://www.autohotkey.net/~polyethene/#uuid>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 uuid(c = false) {
 	static n = 0, l, i

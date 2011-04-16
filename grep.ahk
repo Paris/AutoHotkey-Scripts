@@ -17,8 +17,8 @@
 		Since multiple values are seperated with the delimiter any found within the haystack will be removed.
 
 	License:
-		- Version 2.0 <http://www.autohotkey.net/~Titan/#grep>
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 2.0 <http://www.autohotkey.net/~polyethene/#grep>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 grep(h, n, ByRef v, s = 1, e = 0, d = "") {
 	v =

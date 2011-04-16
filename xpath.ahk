@@ -2,8 +2,8 @@
 	Title: XPath Quick Reference
 
 	License:
-		- Version 3.14 <http://www.autohotkey.net/~Titan/#xpath>
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 3.14 <http://www.autohotkey.net/~polyethene/#xpath>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 
 /*

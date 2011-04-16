@@ -20,8 +20,8 @@
 		For a complete example see anchor-example.ahk.
 
 	License:
-		- Version 4.60a <http://www.autohotkey.net/~Titan/#anchor>
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 4.60a <http://www.autohotkey.net/~polyethene/#anchor>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 Anchor(i, a = "", r = false) {
 	static c, cs = 12, cx = 255, cl = 0, g, gs = 8, gl = 0, gpi, gw, gh, z = 0, k = 0xffff

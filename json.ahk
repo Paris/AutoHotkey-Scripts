@@ -10,8 +10,8 @@
 		Value of element (prior to change).
 
 	License:
-		- Version 2.0 <http://www.autohotkey.net/~Titan/#json>
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 2.0 <http://www.autohotkey.net/~polyethene/#json>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 json(ByRef js, s, v = "") {
 	j = %js%

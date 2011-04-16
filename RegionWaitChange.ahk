@@ -1,7 +1,7 @@
 /*
 	License:
-		- Version 1.01 <http://www.autohotkey.net/~Titan/#regionwaitchange>
-		- Simplified BSD License <http://www.autohotkey.net/~Titan/license.txt>
+		- Version 1.01 <http://www.autohotkey.net/~polyethene/#regionwaitchange>
+		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
 
 /*
