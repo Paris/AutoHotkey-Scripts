@@ -13,12 +13,13 @@
 > hotstrings("\bcolou?r", "rgb(128, 255, 0);") ; '\b' prevents matching with anything before the word, e.g. 'multicololoured'
 
 	License:
-		- Version 2.56 <http://www.autohotkey.net/~polyethene/#hotstrings>
+		- Version 2.57 <http://www.autohotkey.net/~polyethene/#hotstrings>
 		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
 */
+
 hotstrings(k, a = "")
 {
-	static z, m = "*~$", s, t, w = 2000
+	static z, m = "*~$", s, t, w = 2000, d = "Left,Right,Up,Down,Home,End,RButton,LButton"
 	global $
 	If z = ; init
 	{
@@ -28,8 +29,8 @@ hotstrings(k, a = "")
 			If A_Index not between 33 and 58
 				Hotkey, %m%%c%, __hs
 		}
-		e = BS|Space|Enter|Return|Tab
-		Loop, Parse, e, |
+		e = BS,Space,Enter,Return,Tab,%d%
+		Loop, Parse, e, `,
 			Hotkey, %m%%A_LoopField%, __hs
 		z = 1
 	}
@@ -41,6 +42,8 @@ hotstrings(k, a = "")
 			If (SubStr(s, 0) != "}")
 				StringTrimRight, s, s, 1
 		}
+		Else If q in %d%
+			s =
 		Else
 		{
 			If q = Space
