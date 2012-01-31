@@ -13,7 +13,7 @@
 
 	License:
 		- Version 1.04 <http://www.autohotkey.net/~polyethene/#dateparse>
-		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
+		- Dedicated to the public domain (CC0 1.0) <http://creativecommons.org/publicdomain/zero/1.0/>
 */
 DateParse(str) {
 	static e2 = "i)(?:(\d{1,2}+)[\s\.\-\/,]+)?(\d{1,2}|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w*)[\s\.\-\/,]+(\d{2,4})"

@@ -21,7 +21,7 @@
 
 	License:
 		- Version 4.60a <http://www.autohotkey.net/~polyethene/#anchor>
-		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
+		- Dedicated to the public domain (CC0 1.0) <http://creativecommons.org/publicdomain/zero/1.0/>
 */
 Anchor(i, a = "", r = false) {
 	static c, cs = 12, cx = 255, cl = 0, g, gs = 8, gl = 0, gpi, gw, gh, z = 0, k = 0xffff

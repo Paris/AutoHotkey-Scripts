@@ -1,7 +1,7 @@
 /*
 	License:
 		- Version 1.01 <http://www.autohotkey.net/~polyethene/#regionwaitchange>
-		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
+		- Dedicated to the public domain (CC0 1.0) <http://creativecommons.org/publicdomain/zero/1.0/>
 */
 
 /*

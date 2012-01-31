@@ -4,7 +4,7 @@
 
 	License:
 		- Version 1.0 <http://www.autohotkey.net/~polyethene/#levenshtein>
-		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
+		- Dedicated to the public domain (CC0 1.0) <http://creativecommons.org/publicdomain/zero/1.0/>
 */
 DamerauLevenshteinDistance(s, t) {
 	StringLen, m, s

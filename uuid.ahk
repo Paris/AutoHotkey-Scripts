@@ -10,7 +10,7 @@
 
 	About: License
 		- Version 1.1 <http://www.autohotkey.net/~polyethene/#uuid>
-		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
+		- Dedicated to the public domain (CC0 1.0) <http://creativecommons.org/publicdomain/zero/1.0/>
 */
 uuid(c = false) {
 	static n = 0, l, i

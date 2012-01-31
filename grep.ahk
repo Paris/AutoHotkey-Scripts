@@ -18,7 +18,7 @@
 
 	License:
 		- Version 2.0 <http://www.autohotkey.net/~polyethene/#grep>
-		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
+		- Dedicated to the public domain (CC0 1.0) <http://creativecommons.org/publicdomain/zero/1.0/>
 */
 grep(h, n, ByRef v, s = 1, e = 0, d = "") {
 	v =

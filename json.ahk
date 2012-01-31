@@ -11,7 +11,7 @@
 
 	License:
 		- Version 2.0 <http://www.autohotkey.net/~polyethene/#json>
-		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
+		- Dedicated to the public domain (CC0 1.0) <http://creativecommons.org/publicdomain/zero/1.0/>
 */
 json(ByRef js, s, v = "") {
 	j = %js%

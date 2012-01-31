@@ -3,7 +3,7 @@
 
 	License:
 		- Version 3.14 <http://www.autohotkey.net/~polyethene/#xpath>
-		- Dedicated to the public domain <http://creativecommons.org/licenses/publicdomain/>
+		- Dedicated to the public domain (CC0 1.0) <http://creativecommons.org/publicdomain/zero/1.0/>
 */
 
 /*
