@@ -19,16 +19,22 @@
 
 hotstrings(k, a = "")
 {
-	static z, m = "*~$", s, t, w = 2000, d = "Left,Right,Up,Down,Home,End,RButton,LButton"
+	static z, m = "*~$", s, t, w = 2000, sd, d = "Left,Right,Up,Down,Home,End,RButton,LButton"
 	global $
 	If z = ; init
 	{
+		RegRead, sd, HKCU, Control Panel\International, sDecimal
+		If sd not in .,,,
+			sd = .
 		Loop, 94
 		{
 			c := Chr(A_Index + 32)
 			If A_Index not between 33 and 58
 				Hotkey, %m%%c%, __hs
 		}
+		e = 0,1,2,3,4,5,6,7,8,9,Dot,Div,Mult,Add,Sub,Enter
+		Loop, Parse, e, `,
+			Hotkey, %m%Numpad%A_LoopField%, __hs
 		e = BS,Space,Enter,Return,Tab,%d%
 		Loop, Parse, e, `,
 			Hotkey, %m%%A_LoopField%, __hs
@@ -50,8 +56,16 @@ hotstrings(k, a = "")
 				q := " "
 			Else If q = Tab
 				q := "`t"
-			Else If q in Enter,Return
+			Else If q in Enter,Return,NumpadEnter
 				q := "`n"
+			Else If (RegExMatch(q, "Numpad(.+)", n))
+			{
+				nl := GetKeyState("Numlock", "T")
+				If nl
+					If n1 is digit
+						q = %n1%
+				q := n == "Div" ? "/" : n == "Mult" ? "*" : n == "Add" ? "+" : n == "Sub" ? "-" : n == "Dot" and nl ? "." : ""
+			}
 			Else If (StrLen(q) != 1)
 				q = {%q%}
 			Else If (GetKeyState("Shift") ^ GetKeyState("CapsLock", "T"))
