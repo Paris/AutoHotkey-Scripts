@@ -30,7 +30,7 @@ DateParse(str) {
 	d := (d3 ? (StrLen(d3) = 2 ? 20 : "") . d3 : A_YYYY)
 		. ((d2 := d2 + 0 ? d2 : (InStr(e2, SubStr(d2, 1, 3)) - 40) // 4 + 1.0) > 0
 			? d2 + 0.0 : A_MM) . ((d1 += 0.0) ? d1 : A_DD) . t1
-			+ (t1 = 12 ? t4 = "am" ? -12.0 : 0.0 : t4 = "am" ? 0.0 : 12.0) . t2 + 0.0 . t3 + 0.0
+			+ (t1 = 12 ? t4 = "am" ? -12.0 : 0.0 : t4 = "pm" ? 12.0 : 0.0) . t2 + 0.0 . t3 + 0.0
 	SetFormat, Float, %f%
 	Return, d
 }
